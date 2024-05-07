@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #222;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 400px;
+  height: 50%;
+  margin: 150px auto;
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+#inputNumber {
+  width: 50%;
+  margin-top: 10px;
+  border: 2px solid #3399ff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttonContainer {
+  margin: 20px 0;
+}
+
+.submitBtn,
+.restartBtn {
+  background-color: #3399ff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.submitBtn:hover,
+.restartBtn:hover {
+  background-color: #0077cc;
+  color: #ccc;
+}
+
+.hint {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.active:hover {
+  background-color: #999;
+  color: #333;
+  cursor: not-allowed;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfect Guess</title>
+    <!-- Css link with HTML -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">Guess the number</h1>
+      <hr />
+      <div class="container">
+        <form>
+          <label for="inputNumber">Enter a number between 1 to 100</label>
+          <input
+            type="number"
+            id="inputNumber"
+            placeholder="Enter your number"
+            min="1"
+            max="100"
+            required
+          />
+
+          <div class="buttonContainer">
+            <button class="submitBtn">Submit</button>
+            <button class="restartBtn active" disabled>Restart</button>
+          </div>
+        </form>
+        <p class="hint"></p>
+        <p class="storeGuess"></p>
+      </div>
+    </div>
+
+    <!-- Js link with HTML -->
+    <script src="script.js"></script>
+  </body>
+</html>
